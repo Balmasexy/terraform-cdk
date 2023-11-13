@@ -2329,26 +2329,11 @@
   resolved "https://registry.yarnpkg.com/@types/detect-port/-/detect-port-1.3.5.tgz#deecde143245989dee0e82115f3caba5ee0ea747"
   integrity sha512-Rf3/lB9WkDfIL9eEKaSYKc+1L/rNVYBjThk22JTqQw0YozXarX8YljFAz+HCoC6h4B4KwCMsBPZHaFezwT4BNA==
 
-"@types/follow-redirects@^1.14.3":
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/@types/follow-redirects/-/follow-redirects-1.14.3.tgz#1be9803ef23578e05daae9b25cc4119e2c79c6b1"
-  integrity sha512-VN4w0rKWI4DVySabR5/9P65nwcVEAr1taWFyYW3YR7rHYO/bOgG+LHpWfSzthPmCEfmawuXsMd4huQeSoc7jpg==
-  dependencies:
-    "@types/node" "*"
-
 "@types/follow-redirects@^1.14.4":
   version "1.14.4"
   resolved "https://registry.yarnpkg.com/@types/follow-redirects/-/follow-redirects-1.14.4.tgz#ca054d72ef574c77949fc5fff278b430fcd508ec"
   integrity sha512-GWXfsD0Jc1RWiFmMuMFCpXMzi9L7oPDVwxUnZdg89kDNnqsRfUKXEtUYtA98A6lig1WXH/CYY/fvPW9HuN5fTA==
   dependencies:
-    "@types/node" "*"
-
-"@types/fs-extra@^11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-11.0.3.tgz#72c3a247c8dd5703c93d900c584e006476146866"
-  integrity sha512-sF59BlXtUdzEAL1u0MSvuzWd7PdZvZEtnaVkzX5mjpdWTJ8brG0jUqve3jPCzSzvAKKMHTG8F8o/WMQLtleZdQ==
-  dependencies:
-    "@types/jsonfile" "*"
     "@types/node" "*"
 
 "@types/fs-extra@^11.0.4":
@@ -2363,13 +2348,6 @@
   version "8.1.2"
   resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.1.2.tgz#7125cc2e4bdd9bd2fc83005ffdb1d0ba00cca61f"
   integrity sha512-SvSrYXfWSc7R4eqnOzbQF4TZmfpNSM9FrSWLU3EUnWBuyZqNBOrv1B1JA3byUDPUl9z4Ab3jeZG2eDdySlgNMg==
-  dependencies:
-    "@types/node" "*"
-
-"@types/fs-extra@^8.1.4":
-  version "8.1.4"
-  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.1.4.tgz#8171df1d16a80d69fc9c3aab07d7961349a5cb8b"
-  integrity sha512-OMcQKnlrkrOI0TaZ/MgVDA8LYFl7CykzFsjMj9l5x3un2nFxCY20ZFlnqrM0lcqlbs0Yro2HbnZlmopyRaoJ5w==
   dependencies:
     "@types/node" "*"
 
@@ -2476,14 +2454,6 @@
     expect "^29.0.0"
     pretty-format "^29.0.0"
 
-"@types/jest@^29.5.7":
-  version "29.5.7"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.7.tgz#2c0dafe2715dd958a455bc10e2ec3e1ec47b5036"
-  integrity sha512-HLyetab6KVPSiF+7pFcUyMeLsx25LDNDemw9mGsJBkai/oouwrjTycocSDYopMEwFhN2Y4s9oPyOCZNofgSt2g==
-  dependencies:
-    expect "^29.0.0"
-    pretty-format "^29.0.0"
-
 "@types/jest@^29.5.8":
   version "29.5.8"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.8.tgz#ed5c256fe2bc7c38b1915ee5ef1ff24a3427e120"
@@ -2578,13 +2548,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.19.tgz#35e26df9ec441ab99d73e99e9aca82935eea216d"
   integrity sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==
 
-"@types/node@18.18.8":
-  version "18.18.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.8.tgz#2b285361f2357c8c8578ec86b5d097c7f464cfd6"
-  integrity sha512-OLGBaaK5V3VRBS1bAkMVP2/W9B+H8meUfl866OrMNQqt7wDgdpWPp5o6gmIc9pB+lIQHSq4ZL8ypeH1vPxcPaQ==
-  dependencies:
-    undici-types "~5.26.4"
-
 "@types/node@18.18.9":
   version "18.18.9"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.9.tgz#5527ea1832db3bba8eb8023ce8497b7d3f299592"
@@ -2666,10 +2629,10 @@
   resolved "https://registry.yarnpkg.com/@types/reserved-words/-/reserved-words-0.1.0.tgz#a9d5318bb4ac4466862b93fc702542b75d2cd3ac"
   integrity sha512-ls6lSkkhEFm8XSVQjHj47pJoCL9sVK91mwIONw0Iwjqkmy98ForMFYa5+/vb6sytTaK0HSwkzKKYzREPTUhhhg==
 
-"@types/reserved-words@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@types/reserved-words/-/reserved-words-0.1.3.tgz#b13a952e0094649d74dd2048310cad377c3644d8"
-  integrity sha512-K3DjwDhQzD/Ab+DoZ3KEltaiFKMQdrMZLzrMnYHWrRHneaN0wB/fCzVmcTaQ6Imzu5Dm6u6I9U0Kt+gOsAX9Bw==
+"@types/reserved-words@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@types/reserved-words/-/reserved-words-0.1.4.tgz#412ddb1957369c26028dd623f3aebe12a9f8807c"
+  integrity sha512-ChIP5AHEuJ4Dln+WD6t8EY35uWWrpuSnT7TSuELJfDNfaDHtxDhIJtQlAp3RIOSRQbKyTMGouxNl35h89IZ8TA==
 
 "@types/scheduler@*":
   version "0.16.2"
@@ -2709,11 +2672,6 @@
   version "8.3.4"
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.4.tgz#bd86a43617df0594787d38b735f55c805becf1bc"
   integrity sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==
-
-"@types/uuid@^9.0.6":
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.6.tgz#c91ae743d8344a54b2b0c691195f5ff5265f6dfb"
-  integrity sha512-BT2Krtx4xaO6iwzwMFUYvWBWkV2pr37zD68Vmp1CDV196MzczBRxuEpD6Pr395HAgebC/co7hOphs53r8V7jew==
 
 "@types/uuid@^9.0.7":
   version "9.0.7"
@@ -8675,17 +8633,6 @@ jsii-srcmak@^0.1.951:
     ncp "^2.0.0"
     yargs "^15.4.1"
 
-jsii-srcmak@^0.1.954:
-  version "0.1.954"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.954.tgz#05958577b527a4f04a65f55fa23d1a242c3bcffc"
-  integrity sha512-5OP3m/9VWoRZsB1iFasosv5QBVWQTcyWk7Di5yRJd8alWZzrLBMQ7MgQR3JYahBB5FGw4VD/BO76DtwF2smw8A==
-  dependencies:
-    fs-extra "^9.1.0"
-    jsii "~5.2.23"
-    jsii-pacmak "^1.91.0"
-    ncp "^2.0.0"
-    yargs "^15.4.1"
-
 jsii-srcmak@^0.1.964:
   version "0.1.964"
   resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.964.tgz#52796d2d2c3683943f9e1f59449903cebc266bfc"
@@ -8770,25 +8717,6 @@ jsii@^5.2.29:
     semver-intersect "^1.4.0"
     sort-json "^2.0.1"
     spdx-license-list "^6.8.0"
-    typescript "~5.2"
-    yargs "^17.7.2"
-
-jsii@~5.2.23:
-  version "5.2.23"
-  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.2.23.tgz#29e9e08cc38c642e1f915b094c1552b93e9db5e2"
-  integrity sha512-OrQU4r4187z93ORCgjtMYKTomygNmIE8zMFqGohBjD4sCLqgzSB70O2KBTas8Hplz5iZULdxP3+6a8P3kr1MnQ==
-  dependencies:
-    "@jsii/check-node" "1.91.0"
-    "@jsii/spec" "^1.91.0"
-    case "^1.6.3"
-    chalk "^4"
-    downlevel-dts "^0.11.0"
-    fast-deep-equal "^3.1.3"
-    log4js "^6.9.1"
-    semver "^7.5.4"
-    semver-intersect "^1.4.0"
-    sort-json "^2.0.1"
-    spdx-license-list "^6.7.0"
     typescript "~5.2"
     yargs "^17.7.2"
 
