@@ -18,7 +18,7 @@ jobs:
       matrix:
         package: [
             cdktf,
-            # cdktf-cli,
+            cdktf-cli,
             # "@cdktf/hcl2cdk",
             "@cdktf/hcl2json",
             "@cdktf/provider-schema",
